@@ -1,0 +1,93 @@
+
+body {
+    font-family: "Courier Prime", "Courier New", sans-serif;
+    background-color: #ccccff; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-family: "Courier Prime", "Courier New", sans-serif;
+    font-weight: 550;
+    text-align: center;
+    color: #6a0dad; 
+  }
+  
+  #fileInput {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  select {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #d4b3e6;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    color: #6a0dad;
+    font-size: 14px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .job-item {
+    margin: 10px auto;
+    padding: 10px 15px;
+    background-color: #fff;
+    color: #6a0dad;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .job-item:hover {
+    background-color: #d4b3e6; /* Light purple for hover */
+    color: #fff;
+  }
+  
+  .details {
+    background-color: #f1e4f9;
+    border: 1px solid #d4b3e6;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    color: #6a0dad;
+    display: none;
+  }
+  
+  button {
+    display: inline-block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #ffccf2; /* Light pink */
+    border: 1px solid #d4b3e6;
+    border-radius: 20px;
+    color: #6a0dad;
+    font-size: 14px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ff99e6; 
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  button:active {
+    background-color: #d47dbb; 
+    box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  #errorMessage {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
